@@ -49,8 +49,9 @@ namespace InterfaceExercise
 
             foreach (var item in vehicles)
             {
-                Console.WriteLine();
+                //Console.WriteLine();
                 Console.WriteLine($"{item.HasDoors} {item.HasLights} {item.HasWheels}");
+                Console.WriteLine();
             }
         }
         
